@@ -1,0 +1,25 @@
+.icon-left{
+  align-self: flex-start;
+}
+.icon-right{
+  align-self: flex-end;
+}
+.season-display-sub.ui{
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+.season-display.winter{
+  background-color: aliceblue;
+}
+.season-display.summer{
+  background-color: orange;
+}
+.season-display.winter i{
+  color: blue;
+}
+.season-display.summer i{
+  color: firebrick;
+}
